@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
+      <Header />
       <h1>Welcome to User Profiles</h1>
 
       <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
@@ -20,6 +21,9 @@ function App() {
         age="30"
         bio="Passionate about technology and cooking"
       />
+
+      <MainContent />
+      <Footer />
     </div>
   );
 }
