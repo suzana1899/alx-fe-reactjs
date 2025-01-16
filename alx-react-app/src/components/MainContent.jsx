@@ -1,9 +1,21 @@
 import React from "react";
-
 const MainContent = () => {
   return (
-    <main style="background-color: lightgray; padding: 20px; font-family: Arial, sans-serif; text-align: center;">
-      <p style="color: darkblue; font-size: 18px; font-weight: bold;">
+    <main
+      style={{
+        backgroundColor: "lightgray",
+        padding: "20px",
+        fontFamily: "Arial, sans-serif",
+        textAlign: "center",
+      }}
+    >
+      <p
+        style={{
+          color: "darkblue",
+          fontSize: "18px",
+          fontWeight: "bold",
+        }}
+      >
         I love to visit New York, Paris, and Tokyo.
       </p>
     </main>
