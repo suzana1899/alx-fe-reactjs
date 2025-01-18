@@ -9,11 +9,11 @@ function App() {
   return (
     <UserProvider>
       {" "}
-      {/* Wrap your app with the UserProvider */}
+      {/* Wrap everything with UserProvider */}
       <div>
         <Header />
         <h1>Welcome to User Profiles</h1>
-        <UserProfile /> {/* Context data will flow here */}
+        <UserProfile /> {/* No need to pass props directly here */}
         <MainContent />
         <Footer />
       </div>
